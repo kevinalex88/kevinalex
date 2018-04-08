@@ -25,7 +25,8 @@ public class Trabajoenclase {
                     +"\n2. resta"
                     +"\n3. multiplicacion"
                     +"\n4. division"
-                    +"\n5. salir"));
+                    +"\n5. potencia"                                            
+                    +"\n6. salir"));
             
             switch(menu){
                 case 1:
@@ -48,7 +49,14 @@ public class Trabajoenclase {
                     numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
                     JOptionPane.showMessageDialog(null, "el resultado de la divicion es: "+division(numero1, numero2));
                     break;
-                case 5:
+                  
+               case 5:
+                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor que quieres potenciar"));
+                    
+                  JOptionPane.showMessageDialog(null, "el resultado de la potencia es: "+potencia(numero1));
+                    break;
+             
+               case 6:
                     JOptionPane.showMessageDialog(null, "usted selecciono salir.");
                     break;
                 default:
@@ -56,7 +64,7 @@ public class Trabajoenclase {
                     break;
             }
             
-        }while (menu != 5);
+        }while (menu != 6);
         
     }
     public static int suma (int numero1, int numero2){
@@ -78,8 +86,17 @@ public class Trabajoenclase {
      double resultado;
      resultado = numero1 / numero2;
      return resultado;
+
+    }
+ 
+ public static double potencia (int numero1){
+     double resultado;
+     resultado = numero1 * numero1;
+     return resultado;
     }
 }
+
+
 
     
     
