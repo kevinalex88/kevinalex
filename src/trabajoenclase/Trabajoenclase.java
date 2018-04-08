@@ -29,23 +29,23 @@ public class Trabajoenclase {
             
             switch(menu){
                 case 1:
-                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero1"));
-                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero2"));
+                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
+                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite Valor N2"));
                     JOptionPane.showMessageDialog(null, "el resultado de la suma es: "+suma(numero1, numero2));
                     break;
                 case 2:
-                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero1"));
-                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero2"));
+                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
+                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
                     JOptionPane.showMessageDialog(null, "el resultado de la resta es: "+resta(numero1, numero2));
                     break;
                 case 3: 
-                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero1"));
-                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero2"));
+                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
+                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
                     JOptionPane.showMessageDialog(null, "el resultado de la multiplicacion es: "+multiplicacion(numero1, numero2));
                     break;
                 case 4:
-                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero1"));
-                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un valor para el numero2"));
+                    numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
+                    numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite valor N1"));
                     JOptionPane.showMessageDialog(null, "el resultado de la divicion es: "+division(numero1, numero2));
                     break;
                 case 5:
